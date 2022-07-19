@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin: auto;
+    padding-bottom: 6px;
+    border-bottom: #858585 solid 1.2px;
+    color: #858585;
+    font-size: 12px;
+    margin-top: 6px;
+}
+.header-top b{
+    color: black;
+}
+.header-top-links a{
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 12px;
+    color: #858585;
+    font-weight: 500;
+}
+
+.header-middle{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin: auto;
+    padding-top: 16px;
+    align-items: center;
+}
+
+.header-search input{
+    width: 47vw;
+    border: #5FA800 solid 1px;
+    height: 39px;
+    border-radius: 2px;
+    font-size: 12px;
+    color: #9E9E9E;
+    letter-spacing: 0.19px;
+    padding-left: 10px;
+}
+.header-search-button{
+    background-color: #5FA800;
+    border: none;
+    height: 39px;
+    width: 39px;
+    margin-left: 0;
+}
+
+.header-actions{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.header-actions img{
+    height: 24px;
+}
+
+.header-bottom-inner{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    font-size: 14px;
+    height: 45px;
+    width: 90vw;
+    margin: auto;
+    gap: 20px;
+}
+
+.header-bottom{
+    background-color: #333333;
+}
+
+.header-bottom-browse-category button{
+    background-color: #5FA800;
+    padding: 11px 60px;
+    height: 100%;
+    border: none;
+    color: white;
+}
+.header-bottom-menu button{
+    background-color: transparent;
+    padding: 11px 16px;
+    border: none;
+    color: white;
+}
+
+.vr {
+    display: inline;
+    height: 20px;
+    margin: 1px;
+    border-left: 1px solid #545454;
+}
+
+.header-bottom-hotline{
+    display: flex;
+    align-items: center;
+    margin-left: 190px;
+    gap: 10px;
+}
+
+.header-bottom-hotline-number{
+
+
+}
+
+.number{
+    color: #CACACA;
+}
+
+.hotline{
+    color: #5FA800;
+}
