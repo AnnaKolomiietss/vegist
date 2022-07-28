@@ -97,7 +97,7 @@ body{
     color: white;
 }
 
-.vr {
+.vertical-line {
     display: inline;
     height: 20px;
     margin: 1px;
@@ -146,16 +146,16 @@ body{
     color: white;
 }
 
-.registration-text-1, .registration-text-2{
+.font-size_23, .font-size_14{
     text-align: center;
     margin: 10px;
 }
 
-.registration-text-1{
+.font-size_23{
     font-size: 23px;
 }
 
-.registration-text-2{
+.font-size_14{
     font-size: 14px;
 }
 
@@ -213,7 +213,7 @@ body{
     font-size: 16px;
 }
 
-.footer{
+footer{
     background-color: #222222;
     height: 271px;
     width: 100%;
@@ -230,7 +230,7 @@ body{
 
 }
 
-.footer-col{
+.footer-col-wrapper{
     display: flex;
     justify-content: space-around;
     font-size: 12px;
@@ -241,7 +241,7 @@ body{
     margin-top: 48px;
 }
 
-.footer-main-text{
+.footer-col_header{
     color: white;
     margin-bottom: 10px;
 }
@@ -250,23 +250,23 @@ body{
     margin-bottom: 20px;
 }
 
-.footer-col1, .footer-col2, .footer-col3, .footer-col4, .footer-col5{
+.footer-col{
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 19%;
 }
 
-.footer-col1{
+#footer-col1{
     width: 30%;
 }
 
-.footer-col2 a, .footer-col3 a, .footer-col4 a, .footer-col5 a{
+.footer-col a{
     text-decoration: none;
     color: #9E9E9E;
 }
 
-.footer-col6{
+.footer-col_enter-email{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -274,7 +274,7 @@ body{
     margin-top: 48px;
 }
 
-.footer-col6 input{
+.footer-col_enter-email input{
     width: 80%;
     margin-top: 16px;
 }
